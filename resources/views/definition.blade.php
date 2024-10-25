@@ -27,6 +27,11 @@
                 : strip_tags(html_entity_decode($definition->arti))
             }}</p>
         </div>
+        <!-- Pesan Error Jika Tidak Ditemukan -->
+        @else
+        <div class="w-full text-center text-red-400">
+            <h1 class="text-5xl font-bold mb-2">Kata tidak ditemukan</h1>
+        </div>
         @endif
     </div>
 </body>
