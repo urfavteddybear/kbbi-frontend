@@ -9,7 +9,7 @@
 <body class="bg-gray-900 text-white font-sans">
     <div class="flex flex-col items-center justify-center min-h-screen px-4 sm:px-8"> <!-- Added padding for mobile -->
         <!-- Header Kata Dicari -->
-        <div class="text-center mb-8 mt-12 sm:mt-16"> <!-- Added top margin -->
+        <div class="text-center mb-8 mt-16 md:mt-12"> <!-- Added top margin -->
             @if(isset($definition))
                 <h1 class="text-4xl sm:text-5xl font-bold mb-6">{{ $definition->word }}</h1> <!-- Kata yang dicari -->
                 <div class="flex space-x-2 justify-center">
